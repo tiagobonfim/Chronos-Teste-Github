@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Interface
 {
-    public partial class Form1 : Form
+    public partial class formIncial : Form
     {
-        public Form1()
+        public formIncial()
         {
             InitializeComponent();
             this.Location = new Point(200, 150);
@@ -25,7 +25,7 @@ namespace Interface
 
         private void button_iniciar_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(this);
+            formMenu form2 = new formMenu(this);
             form2.Show();
             this.Hide();
         }

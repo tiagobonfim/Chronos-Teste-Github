@@ -1,6 +1,6 @@
 ﻿namespace Interface
 {
-    partial class Form2
+    partial class formMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formMenu));
             this.panel_painel = new System.Windows.Forms.Panel();
             this.panel_equipes = new System.Windows.Forms.Panel();
             this.panel_sortear = new System.Windows.Forms.Panel();

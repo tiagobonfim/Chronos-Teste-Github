@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Interface
 {
-    public partial class Form2 : Form
+    public partial class formMenu : Form
     {
-        Form1 form1;
-        public Form2(Form1 form1)
+        formIncial form1;
+        public formMenu(formIncial form1)
         {
             InitializeComponent();
             this.form1 = form1;
@@ -28,7 +28,6 @@ namespace Interface
             panel_tela.Hide();
             panel_painel.Hide();
             panel_pontuacao.Hide();
-            panel_tempo.Hide();
             panel_monitorSerial.Hide();
             panel_relatorios.Hide();
             panel_config.Hide();
@@ -137,8 +136,15 @@ namespace Interface
 
         private void button_equipes_Click(object sender, EventArgs e)
         {
-            formEquipes form_equipes = new formEquipes();
-            form_equipes.Show();        
+            if (Application.OpenForms.OfType<formEquipes>().Count() == 0)
+            {
+                formEquipes form_equipes = new formEquipes();
+                form_equipes.Show();
+            }
+            else
+            {
+                Application.OpenForms.OfType<formEquipes>().First().Show();
+            }
         }
 
         private void picbox_fechar_MouseEnter(object sender, EventArgs e)
