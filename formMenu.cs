@@ -28,6 +28,7 @@ namespace Interface
             panel_tela.Hide();
             panel_painel.Hide();
             panel_pontuacao.Hide();
+            panel_tempo.Hide();
             panel_monitorSerial.Hide();
             panel_relatorios.Hide();
             panel_config.Hide();
