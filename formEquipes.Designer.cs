@@ -68,33 +68,33 @@
             // label_equipes
             // 
             this.label_equipes.AutoSize = true;
-            this.label_equipes.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_equipes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_equipes.ForeColor = System.Drawing.SystemColors.Control;
             this.label_equipes.Location = new System.Drawing.Point(24, 21);
             this.label_equipes.Name = "label_equipes";
-            this.label_equipes.Size = new System.Drawing.Size(150, 27);
+            this.label_equipes.Size = new System.Drawing.Size(155, 29);
             this.label_equipes.TabIndex = 0;
             this.label_equipes.Text = "E Q U I P E S";
             // 
             // label_novoCadastro
             // 
             this.label_novoCadastro.AutoSize = true;
-            this.label_novoCadastro.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_novoCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_novoCadastro.ForeColor = System.Drawing.SystemColors.Control;
             this.label_novoCadastro.Location = new System.Drawing.Point(25, 62);
             this.label_novoCadastro.Name = "label_novoCadastro";
-            this.label_novoCadastro.Size = new System.Drawing.Size(173, 22);
+            this.label_novoCadastro.Size = new System.Drawing.Size(153, 24);
             this.label_novoCadastro.TabIndex = 1;
             this.label_novoCadastro.Text = "Cadastrar equipe";
             // 
             // label_nomeEquipe
             // 
             this.label_nomeEquipe.AutoSize = true;
-            this.label_nomeEquipe.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_nomeEquipe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_nomeEquipe.ForeColor = System.Drawing.SystemColors.Control;
             this.label_nomeEquipe.Location = new System.Drawing.Point(48, 94);
             this.label_nomeEquipe.Name = "label_nomeEquipe";
-            this.label_nomeEquipe.Size = new System.Drawing.Size(119, 17);
+            this.label_nomeEquipe.Size = new System.Drawing.Size(109, 16);
             this.label_nomeEquipe.TabIndex = 2;
             this.label_nomeEquipe.Text = "Nome da equipe";
             // 
@@ -119,30 +119,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(-4, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 22);
+            this.label1.Size = new System.Drawing.Size(199, 24);
             this.label1.TabIndex = 4;
             this.label1.Text = "Cadastrar nova equipe";
             // 
             // tbox_nomeEquipe
             // 
-            this.tbox_nomeEquipe.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbox_nomeEquipe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbox_nomeEquipe.Location = new System.Drawing.Point(51, 114);
             this.tbox_nomeEquipe.Name = "tbox_nomeEquipe";
-            this.tbox_nomeEquipe.Size = new System.Drawing.Size(199, 23);
+            this.tbox_nomeEquipe.Size = new System.Drawing.Size(199, 22);
             this.tbox_nomeEquipe.TabIndex = 4;
             // 
             // label_calouro
             // 
             this.label_calouro.AutoSize = true;
-            this.label_calouro.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_calouro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_calouro.ForeColor = System.Drawing.SystemColors.Control;
             this.label_calouro.Location = new System.Drawing.Point(49, 148);
             this.label_calouro.Name = "label_calouro";
-            this.label_calouro.Size = new System.Drawing.Size(195, 17);
+            this.label_calouro.Size = new System.Drawing.Size(174, 16);
             this.label_calouro.TabIndex = 5;
             this.label_calouro.Text = "Algum integrante é calouro?";
             // 
@@ -151,7 +151,7 @@
             this.button_adicionar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(172)))), ((int)(((byte)(206)))));
             this.button_adicionar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_adicionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_adicionar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_adicionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_adicionar.ForeColor = System.Drawing.Color.White;
             this.button_adicionar.Location = new System.Drawing.Point(52, 217);
             this.button_adicionar.Name = "button_adicionar";
@@ -165,11 +165,11 @@
             // label_excluirEquipe
             // 
             this.label_excluirEquipe.AutoSize = true;
-            this.label_excluirEquipe.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_excluirEquipe.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_excluirEquipe.ForeColor = System.Drawing.SystemColors.Control;
             this.label_excluirEquipe.Location = new System.Drawing.Point(26, 273);
             this.label_excluirEquipe.Name = "label_excluirEquipe";
-            this.label_excluirEquipe.Size = new System.Drawing.Size(135, 22);
+            this.label_excluirEquipe.Size = new System.Drawing.Size(132, 24);
             this.label_excluirEquipe.TabIndex = 9;
             this.label_excluirEquipe.Text = "Excluir equipe";
             // 
@@ -194,22 +194,22 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
             this.label3.Location = new System.Drawing.Point(-4, 183);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 22);
+            this.label3.Size = new System.Drawing.Size(199, 24);
             this.label3.TabIndex = 4;
             this.label3.Text = "Cadastrar nova equipe";
             // 
             // label_excluirEquipe2
             // 
             this.label_excluirEquipe2.AutoSize = true;
-            this.label_excluirEquipe2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_excluirEquipe2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_excluirEquipe2.ForeColor = System.Drawing.SystemColors.Control;
             this.label_excluirEquipe2.Location = new System.Drawing.Point(48, 307);
             this.label_excluirEquipe2.Name = "label_excluirEquipe2";
-            this.label_excluirEquipe2.Size = new System.Drawing.Size(210, 17);
+            this.label_excluirEquipe2.Size = new System.Drawing.Size(202, 16);
             this.label_excluirEquipe2.TabIndex = 10;
             this.label_excluirEquipe2.Text = "Selecione a equipe e pressione:";
             // 
@@ -218,7 +218,7 @@
             this.button_excluir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(172)))), ((int)(((byte)(206)))));
             this.button_excluir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_excluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_excluir.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_excluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_excluir.ForeColor = System.Drawing.Color.White;
             this.button_excluir.Location = new System.Drawing.Point(51, 329);
             this.button_excluir.Name = "button_excluir";
@@ -232,11 +232,11 @@
             // label_listaEquipes
             // 
             this.label_listaEquipes.AutoSize = true;
-            this.label_listaEquipes.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_listaEquipes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_listaEquipes.ForeColor = System.Drawing.SystemColors.Control;
             this.label_listaEquipes.Location = new System.Drawing.Point(24, 392);
             this.label_listaEquipes.Name = "label_listaEquipes";
-            this.label_listaEquipes.Size = new System.Drawing.Size(156, 22);
+            this.label_listaEquipes.Size = new System.Drawing.Size(147, 24);
             this.label_listaEquipes.TabIndex = 14;
             this.label_listaEquipes.Text = "Lista de equipes";
             // 
@@ -261,11 +261,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.Location = new System.Drawing.Point(-4, 183);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(228, 22);
+            this.label4.Size = new System.Drawing.Size(199, 24);
             this.label4.TabIndex = 4;
             this.label4.Text = "Cadastrar nova equipe";
             // 
@@ -274,7 +274,7 @@
             this.button_salvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(172)))), ((int)(((byte)(206)))));
             this.button_salvar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_salvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_salvar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_salvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_salvar.ForeColor = System.Drawing.Color.White;
             this.button_salvar.Location = new System.Drawing.Point(49, 467);
             this.button_salvar.Name = "button_salvar";
@@ -283,13 +283,14 @@
             this.button_salvar.Text = "Salvar";
             this.button_salvar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button_salvar.UseVisualStyleBackColor = false;
+            this.button_salvar.Click += new System.EventHandler(this.button_salvar_Click);
             // 
             // button_resetar
             // 
             this.button_resetar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(172)))), ((int)(((byte)(206)))));
             this.button_resetar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_resetar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_resetar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_resetar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_resetar.ForeColor = System.Drawing.Color.White;
             this.button_resetar.Location = new System.Drawing.Point(49, 430);
             this.button_resetar.Name = "button_resetar";
@@ -308,7 +309,7 @@
             this.dgv_tabelaEquipes.BackgroundColor = System.Drawing.SystemColors.WindowFrame;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -321,7 +322,7 @@
             this.temCalouro});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(172)))), ((int)(((byte)(206)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -336,6 +337,7 @@
             this.dgv_tabelaEquipes.ShowEditingIcon = false;
             this.dgv_tabelaEquipes.Size = new System.Drawing.Size(406, 411);
             this.dgv_tabelaEquipes.TabIndex = 17;
+            this.dgv_tabelaEquipes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_tabelaEquipes_CellContentClick);
             // 
             // codigo
             // 
@@ -380,11 +382,11 @@
             // rButton_sim
             // 
             this.rButton_sim.AutoSize = true;
-            this.rButton_sim.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rButton_sim.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rButton_sim.ForeColor = System.Drawing.SystemColors.Control;
             this.rButton_sim.Location = new System.Drawing.Point(52, 168);
             this.rButton_sim.Name = "rButton_sim";
-            this.rButton_sim.Size = new System.Drawing.Size(48, 21);
+            this.rButton_sim.Size = new System.Drawing.Size(49, 20);
             this.rButton_sim.TabIndex = 19;
             this.rButton_sim.TabStop = true;
             this.rButton_sim.Text = "Sim";
@@ -394,11 +396,11 @@
             // rButton_nao
             // 
             this.rButton_nao.AutoSize = true;
-            this.rButton_nao.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rButton_nao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rButton_nao.ForeColor = System.Drawing.SystemColors.Control;
             this.rButton_nao.Location = new System.Drawing.Point(52, 190);
             this.rButton_nao.Name = "rButton_nao";
-            this.rButton_nao.Size = new System.Drawing.Size(54, 21);
+            this.rButton_nao.Size = new System.Drawing.Size(52, 20);
             this.rButton_nao.TabIndex = 21;
             this.rButton_nao.TabStop = true;
             this.rButton_nao.Text = "Não";
