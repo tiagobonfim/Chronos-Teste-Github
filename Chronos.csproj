@@ -46,33 +46,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="formIncial.cs">
+    <Compile Include="_Forms\Inicial\formIncial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formIncial.Designer.cs">
+    <Compile Include="_Forms\Inicial\formIncial.Designer.cs">
       <DependentUpon>formIncial.cs</DependentUpon>
     </Compile>
-    <Compile Include="formMenu.cs">
+    <Compile Include="_Forms\Menu\formMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formMenu.Designer.cs">
+    <Compile Include="_Forms\Menu\formMenu.Designer.cs">
       <DependentUpon>formMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="formEquipes.cs">
+    <Compile Include="_Forms\Equipes\formEquipes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formEquipes.Designer.cs">
+    <Compile Include="_Forms\Equipes\formEquipes.Designer.cs">
       <DependentUpon>formEquipes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="_Ignition\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formIncial.resx">
+    <EmbeddedResource Include="_Forms\Inicial\formIncial.resx">
       <DependentUpon>formIncial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formMenu.resx">
+    <EmbeddedResource Include="_Forms\Menu\formMenu.resx">
       <DependentUpon>formMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formEquipes.resx">
+    <EmbeddedResource Include="_Forms\Equipes\formEquipes.resx">
       <DependentUpon>formEquipes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -104,5 +104,6 @@
   <ItemGroup>
     <None Include="Resources\x_branco.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

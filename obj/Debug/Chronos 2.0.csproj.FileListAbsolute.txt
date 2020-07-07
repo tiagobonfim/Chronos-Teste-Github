@@ -1,0 +1,12 @@
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\bin\Debug\Interface.exe.config
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\bin\Debug\Interface.exe
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\bin\Debug\Interface.pdb
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Chronos 2.0.csprojAssemblyReference.cache
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Chronos 2.0.csproj.GenerateResource.cache
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Chronos 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Interface.exe
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Interface.pdb
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Chronos.formIncial.resources
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Chronos.formMenu.resources
+C:\Users\Fetter\Documents\Projetos\Chronos-2.0\obj\Debug\Chronos.formEquipes.resources
