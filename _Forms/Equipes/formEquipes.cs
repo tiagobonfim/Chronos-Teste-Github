@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
@@ -9,10 +10,15 @@ namespace Interface
 {
     public partial class formEquipes : Form
     {
+
         // Especifica o folder no qual será armazenado as informações salvas
         static string equipes_dataPath = @"./ChronosData/Equipes";
+
         // Essa variável especifica o arquivo no qual será armazenado as informações salvas
-        string equipes_filePath = Path.Combine(equipes_dataPath, "lista_de_equipes.txt");
+        readonly string equipes_filePath = Path.Combine(equipes_dataPath, "lista_de_equipes.txt");
+
+        // Especifica se existe ou não calouros na equipe
+        bool calouro;
 
         public formEquipes()
         {
@@ -30,17 +36,21 @@ namespace Interface
             foreach (string linha in linhas)
             {
                 string[] fields = linha.Split(';');
-                dgv_tabelaEquipes.Rows.Add(dgv_tabelaEquipes.Rows.Count + 1, fields[0], fields[1]);
+                dgv_tabelaEquipes.Rows.Add(fields[0], fields[1], fields[2]);
             }
         }
 
-        string calouro=""; // string que vai ser usada para controlar o que tá marcado nos radiobuttons
-            
         private void button_adicionar_Click(object sender, EventArgs e)
         {
-            if (calouro!="" && tbox_nomeEquipe.Text!="") // checa se tem algo marcado nos radiobuttons e texto na textbox
+            if ((rButton_nao.Checked == true || rButton_sim.Checked == true)  // checa se tem algo marcado nos radiobuttons
+                && tbox_nomeEquipe.Text != string.Empty)                      // e se existe texto na textbox
             {
-                dgv_tabelaEquipes.Rows.Add(dgv_tabelaEquipes.Rows.Count + 1, tbox_nomeEquipe.Text, calouro);
+                string strCalouro = "Não";
+                if (calouro)
+                {
+                    strCalouro = "Sim";
+                }
+                dgv_tabelaEquipes.Rows.Add("#"+(dgv_tabelaEquipes.Rows.Count + 1).ToString(), tbox_nomeEquipe.Text, strCalouro);
                 tbox_nomeEquipe.Clear();
                 tbox_nomeEquipe.Focus(); // coloca o cursor na textbox
             }
@@ -49,12 +59,12 @@ namespace Interface
 
         private void rButton_sim_CheckedChanged(object sender, EventArgs e)
         {
-            calouro = "Sim";
+            calouro = true;
         }
 
         private void rButton_nao_CheckedChanged(object sender, EventArgs e)
         {
-            calouro = "Não";
+            calouro = false;
         }
 
         private void button_excluir_Click(object sender, EventArgs e)
@@ -104,10 +114,11 @@ namespace Interface
             {
                 foreach (DataGridViewRow row in dgv_tabelaEquipes.Rows)
                 {
+                    string celulaCodigo = row.Cells[0].Value.ToString();
                     string celulaEquipe = row.Cells[1].Value.ToString();
                     string celulaCalouro = row.Cells[2].Value.ToString();
                     // Arazena o conteúdo da tabela de equipes no arquivo especificado por equipes_dataPath
-                    file.WriteLine(celulaEquipe + ";" + celulaCalouro + ";");
+                    file.WriteLine(celulaCodigo + ";" + celulaEquipe + ";" + celulaCalouro + ";");
                 }
             }
         }
