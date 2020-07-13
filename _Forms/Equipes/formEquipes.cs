@@ -73,19 +73,8 @@ namespace Interface
             {
                 DataGridViewRow selectedRow = dgv_tabelaEquipes.SelectedRows[0];
                 dgv_tabelaEquipes.Rows.Remove(selectedRow);
-
-                                            // o foreach abaixo faz com que os índices das linhas se
-                                            //    reorganizem depois que alguma linha foi excluida
-                int contador = 1;
-                foreach (DataGridViewRow row in dgv_tabelaEquipes.Rows)
-                {
-                    row.Cells[0].Value = contador;
-                    contador++;
-                }
                 dgv_tabelaEquipes.ClearSelection();
             }
-
-
         }
 
         private void button_resetar_Click(object sender, EventArgs e)
