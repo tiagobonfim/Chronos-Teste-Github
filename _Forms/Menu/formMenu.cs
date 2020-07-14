@@ -152,5 +152,18 @@ namespace Interface
         {
             picbox_fechar.BackgroundImage = Properties.Resources.x_branco;
         }
+
+        private void button_sortear_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<formSorteio>().Count() == 0)
+            {
+                formSorteio form_sorteio = new formSorteio();
+                form_sorteio.Show();
+            }
+            else
+            {
+                Application.OpenForms.OfType<formSorteio>().First().Show();
+            }
+        }
     }
 }

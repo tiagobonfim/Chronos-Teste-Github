@@ -252,6 +252,7 @@
             this.button_sortear.Text = "                  Sortear equipes";
             this.button_sortear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_sortear.UseVisualStyleBackColor = true;
+            this.button_sortear.Click += new System.EventHandler(this.button_sortear_Click);
             this.button_sortear.MouseEnter += new System.EventHandler(this.button_sortear_MouseEnter);
             this.button_sortear.MouseLeave += new System.EventHandler(this.button_sortear_MouseLeave_1);
             // 
@@ -332,7 +333,7 @@
             this.button_painel.MouseEnter += new System.EventHandler(this.button_painel_MouseEnter);
             this.button_painel.MouseLeave += new System.EventHandler(this.button_painel_MouseLeave_1);
             // 
-            // Form2
+            // formMenu
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(36)))), ((int)(((byte)(48)))));
@@ -359,7 +360,7 @@
             this.Controls.Add(this.button_equipes);
             this.Controls.Add(this.button_painel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
+            this.Name = "formMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
