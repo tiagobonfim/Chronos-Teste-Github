@@ -23,3 +23,33 @@ C:\José\UFMG\PETEE\Chronos 2.0\Chronos\obj\Debug\Chronos.csproj.CoreCompileInpu
 C:\José\UFMG\PETEE\Chronos 2.0\Chronos\obj\Debug\Interface.exe
 C:\José\UFMG\PETEE\Chronos 2.0\Chronos\obj\Debug\Interface.pdb
 C:\José\UFMG\PETEE\Chronos 2.0\Chronos\obj\Debug\Interface.formSorteio.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Chronos.csprojAssemblyReference.cache
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.exe
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.pdb
+C:\Users\User\Documents\Códigos\Chronos\bin\Debug\Interface.exe.config
+C:\Users\User\Documents\Códigos\Chronos\bin\Debug\Interface.exe
+C:\Users\User\Documents\Códigos\Chronos\bin\Debug\Interface.pdb
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.formIncial.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.formMenu.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.formEquipes.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.formSorteio.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Chronos.csproj.GenerateResource.cache
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Chronos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface.formPontuacao.resources
+C:\Users\User\Documents\Códigos\Chronos\obj\Debug\Interface._Forms.Serial.formSerial.resources
+C:\Users\Samsung\Desktop\Main\Chronos\bin\Debug\Interface.exe.config
+C:\Users\Samsung\Desktop\Main\Chronos\bin\Debug\Interface.exe
+C:\Users\Samsung\Desktop\Main\Chronos\bin\Debug\Interface.pdb
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Chronos.csprojAssemblyReference.cache
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.formIncial.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.formMenu.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.formEquipes.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.Properties.Resources.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.formPontuacao.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.formSerial.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.formSorteio.resources
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Chronos.csproj.GenerateResource.cache
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Chronos.csproj.CoreCompileInputs.cache
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.exe
+C:\Users\Samsung\Desktop\Main\Chronos\obj\Debug\Interface.pdb

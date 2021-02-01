@@ -88,7 +88,7 @@
             this.picbox_fechar.TabStop = false;
             this.picbox_fechar.Click += new System.EventHandler(this.picbox_fechar_Click);
             this.picbox_fechar.MouseEnter += new System.EventHandler(this.picbox_fechar_MouseEnter);
-            this.picbox_fechar.MouseLeave += new System.EventHandler(this.picbox_fechar_MouseLeave);
+            this.picbox_fechar.MouseLeave += new System.EventHandler(this.Picbox_fechar_MouseLeave);
             // 
             // picbox_petee
             // 
@@ -121,6 +121,7 @@
             this.Controls.Add(this.picbox_chronos);
             this.Controls.Add(this.label_bemvindo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formIncial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

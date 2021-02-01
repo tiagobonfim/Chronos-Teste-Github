@@ -1,3 +1,7 @@
-#1;k;Sim;
-#2;k;Não;
-#4;m;Não;
+#1;Zé;Não;
+#2;Vini;Não;
+#3;Alvim;Não;
+#4;Tiago;Não;
+#5;Ítalo;Não;
+#6;Gustavo;Não;
+#7;Luciana;Sim;

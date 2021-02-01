@@ -47,6 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="_Classes\classEquipe.cs" />
+    <Compile Include="_Forms\Pontuação\formPontuacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Forms\Pontuação\formPontuacao.Designer.cs">
+      <DependentUpon>formPontuacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Forms\Serial\formSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Forms\Serial\formSerial.designer.cs">
+      <DependentUpon>formSerial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Forms\Serial\Protocolo.cs" />
     <Compile Include="_Forms\Sorteio\formSorteio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +105,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="_Forms\Pontuação\formPontuacao.resx">
+      <DependentUpon>formPontuacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Forms\Serial\formSerial.resx">
+      <DependentUpon>formSerial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="_Forms\Sorteio\formSorteio.resx">
       <DependentUpon>formSorteio.cs</DependentUpon>
     </EmbeddedResource>

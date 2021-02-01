@@ -18,7 +18,7 @@ namespace Interface
             this.Location = new Point(200, 150);
         }
 
-        private void picbox_fechar_MouseLeave(object sender, EventArgs e)
+        private void Picbox_fechar_MouseLeave(object sender, EventArgs e)
         {
             picbox_fechar.BackgroundImage = Properties.Resources.x_azul;
         }

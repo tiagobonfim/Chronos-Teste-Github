@@ -107,10 +107,15 @@ namespace Interface
                     string celulaCodigo = row.Cells[0].Value.ToString();
                     string celulaEquipe = row.Cells[1].Value.ToString();
                     string celulaCalouro = row.Cells[2].Value.ToString();
-                    // Arazena o conteúdo da tabela de equipes no arquivo especificado por equipes_dataPath
+                    // Armazena o conteúdo da tabela de equipes no arquivo especificado por equipes_dataPath
                     file.WriteLine(celulaCodigo + ";" + celulaEquipe + ";" + celulaCalouro + ";");
                 }
             }
+        }
+
+        private void label_novoCadastro_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

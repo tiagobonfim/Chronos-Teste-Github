@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formEquipes));
             this.label_equipes = new System.Windows.Forms.Label();
             this.label_novoCadastro = new System.Windows.Forms.Label();
             this.label_nomeEquipe = new System.Windows.Forms.Label();
@@ -70,7 +71,7 @@
             this.label_equipes.AutoSize = true;
             this.label_equipes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_equipes.ForeColor = System.Drawing.SystemColors.Control;
-            this.label_equipes.Location = new System.Drawing.Point(24, 21);
+            this.label_equipes.Location = new System.Drawing.Point(25, 20);
             this.label_equipes.Name = "label_equipes";
             this.label_equipes.Size = new System.Drawing.Size(155, 29);
             this.label_equipes.TabIndex = 0;
@@ -86,6 +87,7 @@
             this.label_novoCadastro.Size = new System.Drawing.Size(153, 24);
             this.label_novoCadastro.TabIndex = 1;
             this.label_novoCadastro.Text = "Cadastrar equipe";
+            this.label_novoCadastro.Click += new System.EventHandler(this.label_novoCadastro_Click);
             // 
             // label_nomeEquipe
             // 
@@ -329,13 +331,13 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgv_tabelaEquipes.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_tabelaEquipes.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgv_tabelaEquipes.Location = new System.Drawing.Point(290, 87);
+            this.dgv_tabelaEquipes.Location = new System.Drawing.Point(361, 62);
             this.dgv_tabelaEquipes.Name = "dgv_tabelaEquipes";
             this.dgv_tabelaEquipes.ReadOnly = true;
             this.dgv_tabelaEquipes.RowHeadersVisible = false;
             this.dgv_tabelaEquipes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_tabelaEquipes.ShowEditingIcon = false;
-            this.dgv_tabelaEquipes.Size = new System.Drawing.Size(406, 411);
+            this.dgv_tabelaEquipes.Size = new System.Drawing.Size(407, 446);
             this.dgv_tabelaEquipes.TabIndex = 17;
             // 
             // codigo
@@ -369,7 +371,7 @@
             // 
             this.picbox_fechar.BackgroundImage = global::Interface.Properties.Resources.x_azul;
             this.picbox_fechar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picbox_fechar.Location = new System.Drawing.Point(674, 4);
+            this.picbox_fechar.Location = new System.Drawing.Point(755, 5);
             this.picbox_fechar.Name = "picbox_fechar";
             this.picbox_fechar.Size = new System.Drawing.Size(22, 22);
             this.picbox_fechar.TabIndex = 18;
@@ -410,7 +412,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(36)))), ((int)(((byte)(48)))));
-            this.ClientSize = new System.Drawing.Size(700, 520);
+            this.ClientSize = new System.Drawing.Size(780, 520);
             this.Controls.Add(this.rButton_nao);
             this.Controls.Add(this.rButton_sim);
             this.Controls.Add(this.picbox_fechar);
@@ -431,6 +433,7 @@
             this.Controls.Add(this.label_novoCadastro);
             this.Controls.Add(this.label_equipes);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formEquipes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Equipes";

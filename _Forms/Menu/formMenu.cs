@@ -165,5 +165,31 @@ namespace Interface
                 Application.OpenForms.OfType<formSorteio>().First().Show();
             }
         }
+
+        private void button_pontuacao_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<formPontuacao>().Count() == 0)
+            {
+                formPontuacao form_pontuacao = new formPontuacao();
+                form_pontuacao.Show();
+            }
+            else
+            {
+                Application.OpenForms.OfType<formPontuacao>().First().Show();
+            }
+        }
+
+        private void button_monitorSerial_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<formSerial>().Count() == 0)
+            {
+                formSerial form_serial = new formSerial();
+                form_serial.Show();
+            }
+            else
+            {
+                Application.OpenForms.OfType<formSerial>().First().Show();
+            }
+        }
     }
 }

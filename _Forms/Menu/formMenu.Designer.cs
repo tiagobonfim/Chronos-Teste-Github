@@ -129,11 +129,11 @@
             // label_menu
             // 
             this.label_menu.AutoSize = true;
-            this.label_menu.Font = new System.Drawing.Font("Baskerville Old Face", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_menu.ForeColor = System.Drawing.Color.White;
             this.label_menu.Location = new System.Drawing.Point(24, 21);
             this.label_menu.Name = "label_menu";
-            this.label_menu.Size = new System.Drawing.Size(102, 27);
+            this.label_menu.Size = new System.Drawing.Size(102, 29);
             this.label_menu.TabIndex = 13;
             this.label_menu.Text = "M E N U";
             // 
@@ -165,7 +165,7 @@
             this.button_config.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_config.FlatAppearance.BorderSize = 0;
             this.button_config.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_config.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_config.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_config.ForeColor = System.Drawing.Color.White;
             this.button_config.Image = ((System.Drawing.Image)(resources.GetObject("button_config.Image")));
             this.button_config.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,7 +184,7 @@
             this.button_relatorios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_relatorios.FlatAppearance.BorderSize = 0;
             this.button_relatorios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_relatorios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_relatorios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_relatorios.ForeColor = System.Drawing.Color.White;
             this.button_relatorios.Image = ((System.Drawing.Image)(resources.GetObject("button_relatorios.Image")));
             this.button_relatorios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -203,7 +203,7 @@
             this.button_monitorSerial.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_monitorSerial.FlatAppearance.BorderSize = 0;
             this.button_monitorSerial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_monitorSerial.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_monitorSerial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_monitorSerial.ForeColor = System.Drawing.Color.White;
             this.button_monitorSerial.Image = ((System.Drawing.Image)(resources.GetObject("button_monitorSerial.Image")));
             this.button_monitorSerial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -214,6 +214,7 @@
             this.button_monitorSerial.Text = "                  Monitor serial";
             this.button_monitorSerial.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_monitorSerial.UseVisualStyleBackColor = true;
+            this.button_monitorSerial.Click += new System.EventHandler(this.button_monitorSerial_Click);
             this.button_monitorSerial.MouseEnter += new System.EventHandler(this.button_monitorSerial_MouseEnter);
             this.button_monitorSerial.MouseLeave += new System.EventHandler(this.button_monitorSerial_MouseLeave_1);
             // 
@@ -222,7 +223,7 @@
             this.button_tempo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_tempo.FlatAppearance.BorderSize = 0;
             this.button_tempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_tempo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_tempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_tempo.ForeColor = System.Drawing.Color.White;
             this.button_tempo.Image = ((System.Drawing.Image)(resources.GetObject("button_tempo.Image")));
             this.button_tempo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -241,7 +242,7 @@
             this.button_sortear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_sortear.FlatAppearance.BorderSize = 0;
             this.button_sortear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_sortear.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_sortear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_sortear.ForeColor = System.Drawing.Color.White;
             this.button_sortear.Image = ((System.Drawing.Image)(resources.GetObject("button_sortear.Image")));
             this.button_sortear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,7 +262,7 @@
             this.button_tela.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_tela.FlatAppearance.BorderSize = 0;
             this.button_tela.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_tela.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_tela.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_tela.ForeColor = System.Drawing.Color.White;
             this.button_tela.Image = ((System.Drawing.Image)(resources.GetObject("button_tela.Image")));
             this.button_tela.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -280,7 +281,7 @@
             this.button_pontuacao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_pontuacao.FlatAppearance.BorderSize = 0;
             this.button_pontuacao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_pontuacao.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_pontuacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_pontuacao.ForeColor = System.Drawing.Color.White;
             this.button_pontuacao.Image = ((System.Drawing.Image)(resources.GetObject("button_pontuacao.Image")));
             this.button_pontuacao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -291,6 +292,7 @@
             this.button_pontuacao.Text = "                  Tabela de pontuação";
             this.button_pontuacao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_pontuacao.UseVisualStyleBackColor = true;
+            this.button_pontuacao.Click += new System.EventHandler(this.button_pontuacao_Click);
             this.button_pontuacao.MouseEnter += new System.EventHandler(this.button_pontuacao_MouseEnter);
             this.button_pontuacao.MouseLeave += new System.EventHandler(this.button_pontuacao_MouseLeave_1);
             // 
@@ -299,7 +301,7 @@
             this.button_equipes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_equipes.FlatAppearance.BorderSize = 0;
             this.button_equipes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_equipes.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_equipes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_equipes.ForeColor = System.Drawing.Color.White;
             this.button_equipes.Image = ((System.Drawing.Image)(resources.GetObject("button_equipes.Image")));
             this.button_equipes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -319,7 +321,7 @@
             this.button_painel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button_painel.FlatAppearance.BorderSize = 0;
             this.button_painel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_painel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_painel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_painel.ForeColor = System.Drawing.Color.White;
             this.button_painel.Image = ((System.Drawing.Image)(resources.GetObject("button_painel.Image")));
             this.button_painel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -360,6 +362,7 @@
             this.Controls.Add(this.button_equipes);
             this.Controls.Add(this.button_painel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form2";
